@@ -1,0 +1,20 @@
+{
+  "name": "token-sync",
+  "version": "0.1.0",
+  "description": "Turn one design-token JSON source into CSS custom properties, a Tailwind theme and an Angular SCSS theme.",
+  "type": "module",
+  "bin": {
+    "token-sync": "./src/cli.js"
+  },
+  "main": "./src/resolve.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "MIT"
+}
